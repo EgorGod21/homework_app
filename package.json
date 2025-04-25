@@ -1,10 +1,10 @@
 {
   "name": "hw_app",
   "version": "1.0.0",
-  "source": "src/pages/signup.html",
+  "source": "src/pages/index.html",
   "scripts": {
     "dev": "parcel",
-    "start": "parcel src/pages/signup.html --open",
+    "start": "parcel src/pages/index.html --open",
     "build": "parcel build --public-url ./",
     "deploy": "rm -rf dist && npm run build && gh-pages -d dist"
   },
