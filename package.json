@@ -1,0 +1,18 @@
+{
+  "name": "hw_app",
+  "version": "1.0.0",
+  "source": "src/pages/signup.html",
+  "scripts": {
+    "dev": "parcel",
+    "start": "parcel src/pages/signup.html --open",
+    "build": "parcel build --public-url ./",
+    "deploy": "rm -rf dist && npm run build && gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "homepage": "https://EgorGod21.github.io/homework_app",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
